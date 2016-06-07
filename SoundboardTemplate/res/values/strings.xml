@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Soundboard Test</string>
+    <string name="hello_world">Soundboard Template</string>
+    <string name="title_activity_main">Soundboard Template</string>
+    <string name="menu_ringtone">Set Ringtone</string>
+	<string name="menu_about">About</string>
+	<string name="menu_quit">Close App</string>
+	<string name="save_as">Macho-</string>
+	<string name="filetype">.ogg</string>
+	<string name="filetype_desc">audio/ogg</string>
+	<string name="button1">Tower of Power</string>
+	<string name="button2">2</string>
+	<string name="button3">3</string>
+	<string name="button4">4</string>
+	<string name="button5">5</string>
+	<string name="button6">6</string>
+	<string name="button7">7</string>
+	<string name="button8">8</string>
+	<string name="button9">9</string>
+	<string name="button10">10</string>
+	<string name="button11">11</string>
+	<string name="button12">12</string>
+	<string name="button13">13</string>
+	<string name="button14">14</string>
+	<string name="button15">15</string>
+	<string name="button16">16</string>
+	<string name="button17">17</string>
+	<string name="button18">18</string>
+	<string name="button19">19</string>
+	<string name="button20">20</string>
+	<string name="button21">21</string>
+	<string name="button22">22</string>
+	<string name="button23">23</string>
+	<string name="button24">24</string>
+	<string name="button25">25</string>
+	<string name="button26">26</string>
+	<string name="button27">27</string>
+	<string name="button28">28</string>
+	<string name="button29">29</string>
+	<string name="button30">30</string>
+	<string name="button31">31</string>
+	<string name="button32">32</string>
+	<string name="button33">33</string>
+	<string name="button34">34</string>
+	<string name="button35">35</string>
+	<string name="button36">36</string>
+	<string name="button37">37</string>
+	<string name="button38">38</string>
+	<string name="button39">39</string>
+	<string name="button40">40</string>
+
+</resources>

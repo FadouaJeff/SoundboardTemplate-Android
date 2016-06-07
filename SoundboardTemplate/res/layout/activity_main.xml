@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<com.mobclix.android.sdk.MobclixMMABannerXLAdView
+		android:id="@+id/banner_adview"
+		android:layout_height="50dip"
+		android:layout_width="320dip"
+		android:layout_gravity="center"/>
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fillViewport="true"
+		android:background="#000000">
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/background">
+		<!-- Change Background! -->
+		
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+			
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button1"/>
+
+		<Button
+			android:id="@+id/button2"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button2"/>
+
+		<Button
+			android:id="@+id/button3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button3"/>
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button4"/>
+		
+		<Button
+			android:id="@+id/button5"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button5"/>
+		
+		<Button
+			android:id="@+id/button6"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button6"/>
+			
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button7"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button7"/>
+
+		<Button
+			android:id="@+id/button8"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button8"/>
+
+		<Button
+			android:id="@+id/button9"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button9"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button10"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button10"/>
+
+		<Button
+			android:id="@+id/button11"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button11"/>
+		
+		<Button
+			android:id="@+id/button12"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button12"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button13"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button13"/>
+
+		<Button
+			android:id="@+id/button14"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button14"/>
+
+		<Button
+			android:id="@+id/button15"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button15"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button16"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button16"/>
+
+		<Button
+			android:id="@+id/button17"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button17"/>
+
+		<Button
+			android:id="@+id/button18"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button18"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button19"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button19"/>
+
+		<Button
+			android:id="@+id/button20"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button20"/>
+
+		<Button
+			android:id="@+id/button21"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button21"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button22"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button22"/>
+
+		<Button
+			android:id="@+id/button23"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button23"/>
+
+		<Button
+			android:id="@+id/button24"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button24"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button25"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button25"/>
+
+		<Button
+			android:id="@+id/button26"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button26"/>
+
+		<Button
+			android:id="@+id/button27"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button27"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button28"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button28"/>
+
+		<Button
+			android:id="@+id/button29"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button29"/>
+
+		<Button
+			android:id="@+id/button30"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button30"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button31"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button31"/>
+
+		<Button
+			android:id="@+id/button32"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button32"/>
+
+		<Button
+			android:id="@+id/button33"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button33"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button34"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button34"/>
+
+		<Button
+			android:id="@+id/button35"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button35"/>
+
+		<Button
+			android:id="@+id/button36"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button36"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical|center_horizontal|center">
+		
+		<Button
+			android:id="@+id/button37"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button37"/>
+
+		<Button
+			android:id="@+id/button38"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button38"/>
+
+		<Button
+		    android:id="@+id/button39"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_horizontal"
+			android:lines="2"
+			android:background="@drawable/soundbutton"
+			android:textColor="#FFFFFF"
+			android:text="@string/button39"/>
+	
+	</LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>
